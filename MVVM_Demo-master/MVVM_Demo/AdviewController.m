@@ -16,7 +16,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    UIImageView *imgView = [[UIImageView alloc] init];
+    [self.view addSubview:imgView];
+
 }
 
 - (void)didReceiveMemoryWarning {
