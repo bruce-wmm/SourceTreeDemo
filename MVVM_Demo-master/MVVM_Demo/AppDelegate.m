@@ -18,9 +18,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
     
-    
-    NSLog(@"SourceTree");
-    
     return YES;
 }
 
