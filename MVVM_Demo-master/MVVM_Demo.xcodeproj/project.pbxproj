@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		077410B9A579A8E8521F375B /* Pods_MVVM_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1F70DE085F920550B07037E /* Pods_MVVM_Demo.framework */; };
 		18D8BB682069F32600EAAF9A /* AppDelegate+push.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8BB672069F32600EAAF9A /* AppDelegate+push.m */; };
+		18D8BB6E206A135300EAAF9A /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D8BB6D206A135300EAAF9A /* User.m */; };
 		8B03EBFA1E7F820400BC04BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03EBF91E7F820400BC04BB /* main.m */; };
 		8B03EBFD1E7F820400BC04BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03EBFC1E7F820400BC04BB /* AppDelegate.m */; };
 		8B03EC001E7F820400BC04BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B03EBFF1E7F820400BC04BB /* ViewController.m */; };
@@ -24,6 +25,8 @@
 /* Begin PBXFileReference section */
 		18D8BB662069F32600EAAF9A /* AppDelegate+push.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+push.h"; sourceTree = "<group>"; };
 		18D8BB672069F32600EAAF9A /* AppDelegate+push.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+push.m"; sourceTree = "<group>"; };
+		18D8BB6C206A135300EAAF9A /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		18D8BB6D206A135300EAAF9A /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		25EB03F695621FA3CCEE93AD /* Pods-MVVM_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_Demo/Pods-MVVM_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 		50FBE2B46D471420C2725C4C /* Pods-MVVM_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MVVM_Demo/Pods-MVVM_Demo.release.xcconfig"; sourceTree = "<group>"; };
 		8B03EBF51E7F820400BC04BB /* MVVM_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -84,6 +87,8 @@
 				8B03EBFC1E7F820400BC04BB /* AppDelegate.m */,
 				18D8BB662069F32600EAAF9A /* AppDelegate+push.h */,
 				18D8BB672069F32600EAAF9A /* AppDelegate+push.m */,
+				18D8BB6C206A135300EAAF9A /* User.h */,
+				18D8BB6D206A135300EAAF9A /* User.m */,
 				8B03EC231E80110700BC04BB /* Detail */,
 				8B03EC221E8010F500BC04BB /* Master */,
 				8B03EC011E7F820400BC04BB /* Main.storyboard */,
@@ -301,6 +306,7 @@
 			files = (
 				8B03EC171E7F82BD00BC04BB /* ModelBase.m in Sources */,
 				8B03EC1A1E7FA61500BC04BB /* MovieViewModel.m in Sources */,
+				18D8BB6E206A135300EAAF9A /* User.m in Sources */,
 				8B03EC141E7F827C00BC04BB /* MovieModel.m in Sources */,
 				8B03EC001E7F820400BC04BB /* ViewController.m in Sources */,
 				18D8BB682069F32600EAAF9A /* AppDelegate+push.m in Sources */,
